@@ -1,0 +1,26 @@
+{
+    "name": "cornernote/yii-email-module",
+    "description": "Email system with templates and email queuing.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": ["yii", "email", "email templates", "email queuing", "email spool", "email handler", "mrphp"],
+    "authors": [
+        {
+            "name": "Brett O'Donnell",
+            "email": "cornernote@gmail.com",
+            "homepage": "http://mrphp.com.au/"
+        },
+        {
+            "name": "Zain ul abidin",
+            "email": "zainengineer@gmail.com"
+        }
+    ],
+    "require": {
+        "crisu83/yiistrap": ">=1.0.0",
+        "swiftmailer/swiftmailer": ">=v5.0.0",
+        "mustache/mustache": ">=v2.5.0"
+    },
+    "require-dev": {
+        "yiisoft/yii": "1.1.14"
+    }
+}
